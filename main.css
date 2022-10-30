@@ -7,14 +7,14 @@
 }
 /*barra de navegacion */
 .nav-container {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   display: flex;
   justify-content: space-evenly;
 }
 .nav-container ul li {
   display: inline-flex;
   list-style: none;
-  padding: 0.7rem;
+  padding: 0.6rem;
 }
 .nav-container ul li a {
   font-weight: 800;
