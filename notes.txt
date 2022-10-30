@@ -1,0 +1,5 @@
+#CB9558 Hex Code
+Color Name: Aztec Gold
+
+#D9D7CA Hex Code
+Color Name: Timberwolf
