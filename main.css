@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
+  line-height: 1.8rem;
 }
 /*barra de navegacion */
 .nav-container {
@@ -98,6 +99,7 @@ h3 {
 }
 
 footer {
+  
   margin-block: 0.7rem;
   background: rgb(244, 244, 244);
   display: flex;
