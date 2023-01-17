@@ -34,9 +34,10 @@
   margin: 1rem;
   text-align: center;
   padding-block: 3rem;
-} @media(max-width:900px){
-  .titulo{
-    padding-block:0.3rem ;
+}
+@media (max-width: 900px) {
+  .titulo {
+    padding-block: 0.3rem;
   }
 }
 
@@ -91,15 +92,15 @@ h3 {
 }
 
 /* BECOME A MEMBER BANNER */
-.become-a-member{
+.become-a-member {
   padding-top: 2rem;
   background-color: #eee0b1;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between
-} 
-.become-a-member-texto{
+  justify-content: space-between;
+}
+.become-a-member-texto {
   display: flex;
   flex-direction: column;
   margin-left: 5rem;
@@ -107,7 +108,7 @@ h3 {
   gap: 2rem;
   flex: 1;
 }
-.become-a-member-imagen{
+.become-a-member-imagen {
   flex: 1;
 }
 .become-a-member-texto > button {
@@ -123,16 +124,16 @@ h3 {
   cursor: pointer;
   transform: scale(1.1);
 }
-@media(max-width:900px){
-  .become-a-member{
+@media (max-width: 900px) {
+  .become-a-member {
     flex-direction: column;
   }
-  .become-a-member-texto{
+  .become-a-member-texto {
     margin-left: 0.5rem;
   }
-  .become-a-member-imagen > img{
+  .become-a-member-imagen > img {
     margin-top: 2rem;
-  width: 80%;
+    width: 80%;
   }
 }
 /* TERMINO BECOME A MEMBER BANNER */
@@ -194,4 +195,53 @@ a {
   line-height: 120%;
   font-weight: 500;
   width: auto;
+}
+
+/* CAFETERIA STYLES */
+.cafeteria-title {
+  background-color: #eee0b1;
+  padding: 2rem;
+  font-family: 'Cormorant Garamond', serif;
+  letter-spacing: 1rem;
+  text-align: end;
+  color: #555;
+}
+.cafeteria-card {
+  max-width: 900px;
+  margin-left: 10rem;
+}
+
+.cafeteria-card-open {
+  margin-top: 0.7rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.cafeteria-card-item {
+  margin-block: 3rem;
+}
+
+.grid-4-imagenes-cafeteria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+}
+
+.imagen-4-cafeteria {
+  width: 100%;
+  aspect-ratio: 1/1.5;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .cafeteria-card {
+    margin-left: 0rem;
+    padding-inline: 0.5rem;
+  }
+  .grid-4-imagenes-cafeteria {
+    gap: 0rem;
+  }
+  .imagen-4-cafeteria {
+    margin-top: -0.8rem;
+  }
 }
