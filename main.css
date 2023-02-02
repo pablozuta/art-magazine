@@ -245,3 +245,12 @@ a {
     margin-top: -0.8rem;
   }
 }
+
+/* HOVER IMAGENES INDEX PAGE */
+.a_image{
+  transition: all 1s;
+}
+.a_image:hover{
+  cursor: pointer;
+  opacity: 0.6;
+}
