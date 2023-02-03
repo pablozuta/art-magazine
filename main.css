@@ -210,6 +210,10 @@ a {
   max-width: 900px;
   margin-left: 10rem;
 }
+.h3-cafeteria{
+  margin-left: 0;
+  border-bottom:1.4px solid #dabc5a;
+}
 
 .cafeteria-card-open {
   margin-top: 0.7rem;
@@ -253,4 +257,17 @@ a {
 .a_image:hover{
   cursor: pointer;
   opacity: 0.6;
+}
+
+/* ABOUT US PAGE */
+.main-about-us{
+  max-width: 800px;
+  text-align: left;
+  padding-inline: 2%;
+  margin: auto;
+}
+.main-about-us > img {
+  width: 100%;
+  height: auto;
+  
 }
