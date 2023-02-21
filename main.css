@@ -204,22 +204,18 @@ a {
 }
 
 /* CAFETERIA STYLES */
-.cafeteria-title {
-  background-color: #eee0b1;
-  padding: 2rem;
-  font-family: 'Cormorant Garamond', serif;
-  letter-spacing: 1rem;
-  text-align: end;
-  color: #555;
-}
+
 .m900{
  max-width: 900px;
   margin-left: 10rem;
 } 
 
 .cafeteria-card {
-  max-width: 900px;
-  margin-left: 10rem;
+  max-width: 800px;
+  text-align: left;
+  padding-inline: 2%;
+  margin: auto;
+  
 }
 .h3-cafeteria{
   margin-left: 0;
@@ -227,14 +223,11 @@ a {
 }
 
 .cafeteria-card-open {
-  margin-top: 0.7rem;
+ 
   font-size: 0.9rem;
   color: #555;
 }
 
-.cafeteria-card-item {
-  margin-block: 3rem;
-}
 
 .grid-4-imagenes-cafeteria {
   display: grid;
