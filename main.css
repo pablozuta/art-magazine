@@ -32,12 +32,14 @@
 .titulo {
   border: 3px black solid;
   margin: 1rem;
+  font-size: 2rem;
   text-align: center;
-  padding-block: 3rem;
+  padding-block: 4rem;
 }
 @media (max-width: 900px) {
   .titulo {
-    padding-block: 0.3rem;
+    padding-block: 2.5rem;
+    font-size: 1rem;
   }
 }
 
@@ -76,6 +78,8 @@ h3 {
   padding: 5%;
   gap: 3rem;
 }
+
+
 
 .artist__img {
   width: 100%;
@@ -191,9 +195,6 @@ a {
   }
 }
 
-.ml-2{
-  margin-left: 0.3rem;
-}
 
 .dos-parrafos-texto {
   line-height: 120%;
@@ -201,6 +202,11 @@ a {
   width: auto;
   margin: auto;
   
+}
+.ml-2{
+  width: 98%;
+  
+  margin: auto;
 }
 
 /* CAFETERIA STYLES */
