@@ -57,8 +57,6 @@ h3 {
   gap: 3rem;
 }
 
-
-
 .artist__img {
   width: 100%;
   aspect-ratio: 1/1;
@@ -120,19 +118,16 @@ h3 {
 }
 /* TERMINO BECOME A MEMBER BANNER */
 
-
-
 /* DOS PARRAFOS DE TEXTO */
 .dos-parrafos {
   margin-inline: 4rem;
   font-family: 'Playfair Display', serif;
-  text-align: left;
-  text-justify: auto;
   color: black;
   display: grid;
   grid-gap: 35px;
-  grid-template-columns: repeat(auto-fit, minmax(26rem, 0.5fr));
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 0.5fr));
   margin-bottom: 3rem;
+  align-items: center;
 }
 @media (max-width: 900px) {
   .dos-parrafos {
@@ -140,45 +135,42 @@ h3 {
   }
 }
 
-
 .dos-parrafos-texto {
   line-height: 120%;
   font-weight: 500;
+  text-align: center;
   width: auto;
   margin: auto;
-  
+  text-justify: distribute;
 }
-.ml-2{
+.ml-2 {
   width: 98%;
-  
+
   margin: auto;
 }
 
 /* CAFETERIA STYLES */
 
-.m900{
- max-width: 900px;
+.m900 {
+  max-width: 900px;
   margin-left: 10rem;
-} 
+}
 
 .cafeteria-card {
   max-width: 800px;
   text-align: left;
   padding-inline: 2%;
   margin: auto;
-  
 }
-.h3-cafeteria{
+.h3-cafeteria {
   margin-left: 0;
-  border-bottom:1.4px solid #dabc5a;
+  border-bottom: 1.4px solid #dabc5a;
 }
 
 .cafeteria-card-open {
- 
   font-size: 0.9rem;
   color: #555;
 }
-
 
 .grid-4-imagenes-cafeteria {
   display: grid;
@@ -206,16 +198,16 @@ h3 {
 }
 
 /* HOVER IMAGENES INDEX PAGE */
-.a_image{
+.a_image {
   transition: all 1s;
 }
-.a_image:hover{
+.a_image:hover {
   cursor: pointer;
   opacity: 0.6;
 }
 
 /* ABOUT US PAGE */
-.main-about-us{
+.main-about-us {
   max-width: 800px;
   text-align: left;
   padding-inline: 2%;
@@ -224,5 +216,4 @@ h3 {
 .main-about-us > img {
   width: 100%;
   height: auto;
-  
 }
